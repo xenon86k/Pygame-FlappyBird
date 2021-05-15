@@ -266,3 +266,9 @@ while True:
 
     pygame.display.update()
     clock.tick(120)
+
+# Reference - https://youtu.be/UZg49z76cLw
+# Changes made - 
+# 1. Added game starting screen, game over screen, night mode, random pipe gaps
+# 2. Highscore is saving in file, so it doesn't reset ecery time while closing the game
+# 3. Made suitable for 1080P displays
