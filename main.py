@@ -132,6 +132,7 @@ def check_collision(pipes):
 # Initializing Pygame and Audio Mixer For Pygame
 pygame.mixer.pre_init()
 pygame.init()
+pygame.display.set_caption("Pygame-FlappyBird")
 
 # Creating a screen (height, width)
 screen = pygame.display.set_mode((432, 768))
